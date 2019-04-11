@@ -15,3 +15,5 @@ To ignore files add them to`.gitignore`:
 ```
 log/*.log
 ```
+
+To just add parts of the index we cann use `git add -p` (`-p` as in "patch").
