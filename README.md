@@ -44,4 +44,16 @@ Use `git log -S` to search in contents of commits.
 Branches are essential for any git workflow. To create a new branch run
 
 ```
-$ git checkout 
+$ git checkout -b BRANCH_NAME
+```
+
+To list all your branches you can run (the active branch will be marked with a `*`)
+
+```
+$ git branch
+```
+
+Possible workflow options:
+
+1. Add commits as usual in your branch. When ready `git rebase --interactive master` to cleanup your commits
+1. To merge branch back into `master`use `git merge --ff BRANCH_NAME` (`--ff` means fast)
