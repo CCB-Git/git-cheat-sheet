@@ -35,7 +35,7 @@ Use `git log --oneline --graph` to get condensed log view.
 
 Use `git blame` to see **last** change for each line.
 
-Use `git show COMMIT_SHA1` to get detailed information abbout commit (including diff).
+Use `git show COMMIT_SHA1` to get detailed information about commit (including diff).
 
 Use `git log -S` to search in contents of commits.
 
